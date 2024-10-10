@@ -2,84 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teu Sawios Ulah Reuwas - 404 page teu katempo</title>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arvo'>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-        }
-
-        .page_404 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            background: #fff;
-            font-family: 'Arvo', serif;
-        }
-
         .four_zero_four_bg {
             background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-            height: 400px;
             background-position: center;
-            background-size: cover;
-        }
-
-        .four_zero_four_bg h1 {
-            font-size: 80px;
-        }
-
-        .four_zero_four_bg h3 {
-            font-size: 80px;
-        }
-
-        .link_404 {
-            color: #fff !important;
-            padding: 10px 20px;
-            background: #39ac31;
-            margin: 20px 0;
-            display: inline-block;
-        }
-
-        .contant_box_404 {
-            margin-top: -50px;
-        }
-
-        /* Responsiveness for mobile */
-        @media (max-width: 768px) {
-            .four_zero_four_bg {
-                height: 250px;
-            }
-
-            .four_zero_four_bg h1 {
-                font-size: 60px;
-            }
-
-            .four_zero_four_bg h3 {
-                font-size: 40px;
-            }
-
-            .contant_box_404 {
-                margin-top: -20px;
-            }
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     </style>
 </head>
-<body translate="no">
+<body class="h-screen flex items-center justify-center bg-white font-serif">
 
-<section class="page_404">
-    <div class="container text-center">
-        <div class="four_zero_four_bg">
-            <h1 class="text-center">404</h1>
-        </div>
+<section class="page_404 w-full flex items-center justify-center flex-col relative">
+    <div class="text-center">
+        <h1 class="text-9xl font-bold text-gray-800 absolute inset-x-0 top-0 mt-8">404</h1>
 
-        <div class="contant_box_404">
-            <h3 class="h2">Teu sawios ulah reuwas nyasab kadie</h3>
-            <p>Dokumen tidak ditemukan!</p>
-            <a href="../" class="link_404">Indit ka imah</a>
+        <div class="four_zero_four_bg h-96 w-full mt-20"></div>
+
+        <div class="contant_box_404 mb-8">
+            <h3 class="text-4xl font-bold">Teu sawios ulah reuwas nyasab kadie</h3>
+            <p class="text-lg mt-2">Dokumen tidak ditemukan!</p>
+            <a href="../" class="mt-4 inline-block bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition">
+                Indit ka imah
+            </a>
         </div>
     </div>
 </section>
