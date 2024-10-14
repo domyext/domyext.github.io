@@ -73,3 +73,7 @@ body {
     width: 20%;
     height: auto;
 }
+
+.section-container {
+    min-height: 100vh;
+}
