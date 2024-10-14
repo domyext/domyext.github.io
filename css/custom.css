@@ -83,3 +83,14 @@ body {
     padding-top: 10vh;
     padding-bottom: 5vh;
 }
+
+.github-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+ 
+.github-text {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
