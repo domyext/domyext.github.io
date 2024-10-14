@@ -77,3 +77,9 @@ body {
 .section-container {
     min-height: 100vh;
 }
+
+.footer-section {
+    background-color: #161616;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
