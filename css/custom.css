@@ -79,7 +79,8 @@ body {
 }
 
 .footer-section {
-    background-color: #161616;
+    background-color: #2c2b2b61;
+    backdrop-filter: blur(15px);
     padding-top: 10vh;
     padding-bottom: 5vh;
 }
