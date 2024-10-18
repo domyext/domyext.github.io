@@ -47,7 +47,8 @@ body {
 	top: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-    
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .searchbar {
@@ -134,4 +135,5 @@ body {
 .about-section {
     padding-top: 10rem;
     background: linear-gradient(to bottom, #19012b 0%, rgba(26, 1, 24, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    font-family: var(--bs-body-font-family);
   }
