@@ -73,3 +73,25 @@ body {
     width: 20%;
     height: auto;
 }
+
+.section-container {
+    min-height: 100vh;
+}
+
+.footer-section {
+    background-color: #2c2b2b61;
+    backdrop-filter: blur(15px);
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.github-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+ 
+.github-text {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
