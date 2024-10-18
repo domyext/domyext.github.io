@@ -85,6 +85,13 @@ body {
     padding-bottom: 5vh;
 }
 
+.navbar-section {
+    background-color: #2c2b2b61;
+    backdrop-filter: blur(15px);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
 .github-icon {
     vertical-align: middle;
     margin-right: 0.5rem;
