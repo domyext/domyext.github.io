@@ -1,9 +1,6 @@
 @import url('https://rsms.me/inter/inter.css');
 
 @media (max-width: 768px) { 
-    .logo-img {
-        width: 50%; 
-    }
 
     .content h1 {
         font-size: 18px;
@@ -95,6 +92,13 @@ body {
     width: 20%;
     height: auto;
 }
+
+@media (max-width: 768px) { 
+    .logo-img {
+        width: 50%; 
+    }
+}
+
 
 .section-container {
     min-height: 100vh;
