@@ -1,0 +1,21 @@
+#about-us {
+    background-color: #f8f9fa;
+}
+
+#about-us h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+#about-us p {
+    color: #6c757d;
+}
+
+#team h3 {
+    margin-bottom: 40px;
+    color: #343a40;
+}
+
+#team img {
+    border: 3px solid #343a40;
+}
