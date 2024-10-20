@@ -80,7 +80,7 @@ html body {
   }
   .footer-section-1 {
     color: #FFF;
-    background-color: #44444461;
+    background-image: linear-gradient(#0261c0cc, rgb(38, 38, 38));
     backdrop-filter: blur(15px);
     padding-top: 10vh;
     padding-bottom: 5vh;
