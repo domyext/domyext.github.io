@@ -108,6 +108,7 @@ transform: translate(-50%, -50%);
 }
 
 .footer-section {
+  color: azure;
   background-color: #2c2b2b61;
   backdrop-filter: blur(15px);
   padding-top: 10vh;
