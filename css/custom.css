@@ -105,11 +105,22 @@ transform: translate(-50%, -50%);
 .logo-img-navbar {
     width: 5%;
     height: auto;
+    margin-right: auto; 
+    margin-left: 2vi;
+}
+
+.navbar-text {
+    margin-left: 0rem;
+    font-size: 1.5rem; 
+    color: white;
 }
 
 @media (max-width: 768px) { 
     .logo-img-navbar {
         width: 15%; 
+    }
+    .navbar-text {
+        font-size: 1rem; 
     }
 }
 
