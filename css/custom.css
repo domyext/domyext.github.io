@@ -128,8 +128,8 @@ transform: translate(-50%, -50%);
 .navbar-section {
     background-color: #2c2b2b61;
     backdrop-filter: blur(15px);
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .github-icon {
