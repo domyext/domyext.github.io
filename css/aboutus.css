@@ -24,6 +24,10 @@
 #about-us h2 {
     font-weight: bold;
 }
+.logo-img {
+  width: 20%;
+  height: auto;
+}
 
 #about-us .container {
     position: relative;
@@ -48,10 +52,10 @@ html body {
     z-index: 100;
     cursor:pointer;
     height: 60px;
-    width: 80px;
+    width: 20px;
     margin: 0px 0 0 -40px;
     line-height: 60px;
-    left: 50%;
+    left: 800px;
     bottom: 10px;
     color: #FFF;
     text-align: center;
@@ -79,11 +83,11 @@ html body {
     }
   }
   .footer-section-1 {
-    color: #FFF;
-    background-image: linear-gradient(#0261c0cc, rgb(38, 38, 38));
-    backdrop-filter: blur(15px);
-    padding-top: 10vh;
-    padding-bottom: 5vh;
+    color: azure;
+  background-color: #2c2b2b45;
+  backdrop-filter: blur(15px);
+  padding-top: 10vh;
+  padding-bottom: 5vh;
 }
 .github-icon {
     vertical-align: middle;
