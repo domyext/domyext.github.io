@@ -147,3 +147,10 @@ transform: translate(-50%, -50%);
   height: auto;
   margin-left: 1rem;          
 }
+
+.navbar-text {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 0;              
+  display: inline-block;       
+}
