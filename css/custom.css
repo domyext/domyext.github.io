@@ -141,3 +141,9 @@ transform: translate(-50%, -50%);
   display: flex;               
   align-items: center;         
 }
+
+.logo-img-navbar {
+  width: 5%;
+  height: auto;
+  margin-left: 1rem;          
+}
