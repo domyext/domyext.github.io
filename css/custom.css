@@ -169,3 +169,18 @@ transform: translate(-50%, -50%);
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
+
+@media (max-width: 768px) {
+  .logo-img-navbar {
+      width: 15%;
+  }
+  
+  .navbar-text {
+      font-size: 1rem;
+  }
+
+  .nav-link {
+      font-size: 1rem;
+      margin-left: 1rem;
+  }
+}
