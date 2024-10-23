@@ -179,7 +179,7 @@ transform: translate(-50%, -50%);
 }
 
 .navbar-links .nav-link:hover {
-  color: ;  
+  color: #6825D0 !important;  
 }
 
 @media (max-width: 768px) {
