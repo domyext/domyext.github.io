@@ -110,3 +110,7 @@
     font-family: var(--bs-body-font-family);
   }
   
+  .bg-py-5{
+    background-color: #d0d0d0cd;
+    backdrop-filter: blur(3px);
+  }
