@@ -178,6 +178,9 @@ transform: translate(-50%, -50%);
   transition: color 0.3s ease;
 }
 
+.navbar-links .nav-link:hover {
+  color: ;  
+}
 
 @media (max-width: 768px) {
   .logo-img-navbar {
