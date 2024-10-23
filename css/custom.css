@@ -166,9 +166,18 @@ transform: translate(-50%, -50%);
   color: white;
   text-decoration: none;
   margin-left: 2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
+
+.navbar-links .nav-link {
+  color: white !important;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
 
 @media (max-width: 768px) {
   .logo-img-navbar {
