@@ -15,7 +15,9 @@
   padding-top: 1vh;
   padding-bottom: 1vh;
   display: flex;               
-  align-items: center;         
+  align-items: center; 
+  justify-content: space-between;
+  flex-wrap: wrap; 
 }
 
 #about-us::before {
@@ -33,7 +35,7 @@
     font-weight: bold;
 }
 .logo-img {
-  width: 20%;
+  width: 100px;
   height: auto;
 }
 
